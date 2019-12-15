@@ -4,9 +4,8 @@ __Action__: Build a webiste using the flask framework using python
 __Motive__: To understand the Flask framework in greater detail  
 
 Dependencies:  
-- Flask
+- Flask  
     pip install flask
-
 
 Build order: 
 - HTML template  
