@@ -1,4 +1,6 @@
-from flask import Flask
+# Import Flask library
+# Import HTML template from flask: render_template
+from flask import Flask, render_template
 
 #Create an variable to store the Flask app object 
 app = Flask(__name__)

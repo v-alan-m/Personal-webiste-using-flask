@@ -7,6 +7,7 @@ __Motive__: To understand the Flask framework in greater detail
 - Flask, install using: pip install flask
 
 ## Build order
+- Create a file to create and run the flask webserver
 - HTML template  
 - Navigation memu  
 - Note on caching  
