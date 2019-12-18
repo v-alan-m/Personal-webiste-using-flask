@@ -1,0 +1,28 @@
+<!-- Declare the document type -->
+<! DOCTYPE html>
+<!-- Opening html tag, and closing html tag-->
+<html>
+  <head>
+      <title>XLaunch holding page</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">XLaunch coming soon, 2020 <br></br>
+          It'll be out-of-this-world...</h1>
+        <strong><nav>
+          <ul class="menu">
+            <!--locate the url within the same-->  
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+    <div class="container">
+        {%block content%}
+        {%endblock%}
+    </div>
+  </body>
+</html>
