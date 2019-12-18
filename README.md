@@ -16,3 +16,5 @@ __Motive__: To understand the Flask framework in greater detail
 - Deploy the website onto a live server 
 - Maintaining a live server  
 - Troubleshooting  
+
+Lessons learnt from: https://www.udemy.com/course/the-python-mega-course
